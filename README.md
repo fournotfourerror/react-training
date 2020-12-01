@@ -67,4 +67,24 @@ addition(10,20)
   array1.forEach(i=>{
     console.log(i)
 })
+
+
+array.forEach(item=>{
+    console.log(item)
+})
+
+// item represents the elements of an array
+
+
+array.forEach((item,index)=>{
+    console.log(item+"=>"+index)
+})
+
+// index is for positions
+
+array.forEach((item,index,array)=>{
+   console.log(item+"=>"+index+"=>"+array)
+})
+
+array displays the entire array
 ```
