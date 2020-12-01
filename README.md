@@ -88,3 +88,23 @@ array.forEach((item,index,array)=>{
 
 array displays the entire array
 ```
+
+### Destructuring
+Assigning values to a specific variable by extracting them from an array.
+
+```javascript
+     array
+     // [1,2,3,4,5,6]
+     
+     var [a,b]=array;
+     a
+     // 1
+     
+     b
+     // 2
+     
+     var [a,b,...c]=array;
+     
+     c
+     // [3,4,5,6]
+```
