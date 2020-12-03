@@ -167,3 +167,29 @@ This is for avoiding complexity and + for joining multiple strings together.
 ```javascript
     console.log(`I am ${name} and I am working as a ${role}`);
 ```
+
+### String functions
+* str.concat()
+   `Merging one or more string(s) together`
+* str.charAt()
+   `Getting specific character based on the index value`
+* str.indexOf
+   `Getting index value based on the character. If the character is not available we can get -1`
+* replace()
+```javascript
+   str.replace("sampple","word")
+```
+
+* search()
+```javascript
+    str.search("wo")
+```
+* substr()
+* substring()
+* split()
+* includes()
+* startsWith()
+* endsWith()
+* toUpperCase()
+* toLowerCase()
+
